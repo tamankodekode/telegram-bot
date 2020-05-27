@@ -1,0 +1,28 @@
+{
+  "name": "@tamankodekode/telegram-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram Taman Kode-Kode",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamankodekode/telegram-bot.git"
+  },
+  "keywords": [],
+  "author": "Hadi Hidayat Hammurabi <hadihammurabi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamankodekode/telegram-bot/issues"
+  },
+  "homepage": "https://github.com/tamankodekode/telegram-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
